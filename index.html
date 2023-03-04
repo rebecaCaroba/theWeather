@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../Tempo/img/icon.png" type="image/x-icon">
+    <title>O Clima</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="weather">
+            <form>
+                <div class="input">
+                    <input type="text" name="city-data" id="city-data" placeholder="Inserir">
+                    <button id="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <div class="weather-data">
+                    <div>
+                        <h1 id="city">Maceió</h1>
+                        <p id="temp">38&deg;C</p>
+                        <div class="des-container">
+                            <p id="des">Nublado</p>
+                            <span id="mm">oi&deg;C</span>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <p id="humidity">
+                            <i class="fa-solid fa-droplet"></i>
+                            Umidade:
+                            <span>48%</span>
+                        </p>
+                        <p id="wind">
+                            <i class="fa-solid fa-wind"></i>
+                            Vel. vento:
+                            <span>3km/h</span>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/5c35fb9fc4.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

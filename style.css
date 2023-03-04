@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    color: #0000;
+}
+
+.container {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.29);
+    background-blend-mode: color;
+    background-image: url('../img/mountain-g3713bb7bc_1920.jpg');
+    max-width: 1920px;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1.5s;
+}
+
+#mm {
+    font-size: 22px;
+}
+
+.weather {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+}
+
+.weather-data {
+    display: none;
+    margin: 20px 0px;
+}
+
+#temp {
+    font-size: 5rem;
+}
+
+.des-container {
+    font-size: 2rem;
+    margin-bottom: 8rem;
+}
+
+.weather-data h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 6rem;
+}
+
+.details {
+    background-color: #02020279;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+#temp {
+    font-weight: 600;
+}
+
+input {
+    border: 0;
+    background: #17171792;
+    border-radius: 20px;
+    color: #fff;
+    height: 38px;
+    width: 15rem;
+    margin-top: 20px;
+    padding: 20px;
+    transition: 0.8s;
+}
+
+#search {
+    background: transparent;
+    border: 0;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
