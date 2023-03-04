@@ -45,7 +45,7 @@ function showData(city) {
     des.innerText = city.weather[0].description
     mm.innerHTML = parseInt(city.main.temp_max) + '&deg;/' + parseInt(city.main.temp_min) + '&deg;'
     const desc = city.weather[0].description.replace(/\s/g, '')
-    container.style.backgroundImage = `url(../img/${desc}.jpg)`
+    container.style.backgroundImage = `url(../Tempo/img/${desc}.jpg)`
     umi.innerText = city.main.humidity + '%'
     wind.innerText = parseInt(city.wind.speed) + 'km/h'
 
